@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Sub"
+             x:Class="MultiWindowsWithMenu.SubPage">
+
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Sub Page Tools">
+            <MenuFlyoutItem Text="Dummy Menu 1" />
+            <MenuFlyoutItem Text="Dummy Menu 2" />
+            <MenuFlyoutItem Text="Dummy Menu 3" />
+            <MenuFlyoutItem Text="Dummy Menu 4" />
+         </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+</ContentPage>
