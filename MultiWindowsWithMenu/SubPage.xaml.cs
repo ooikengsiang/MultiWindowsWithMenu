@@ -6,4 +6,9 @@ public partial class SubPage : ContentPage
     {
         InitializeComponent();
     }
+
+    async void AlertButton_Clicked(System.Object sender, System.EventArgs e)
+    {
+        await this.DisplayAlert("Alert", $"Alert from {nameof(SubPage)}", "OK");
+    }
 }

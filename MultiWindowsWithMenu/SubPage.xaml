@@ -13,4 +13,10 @@
          </MenuBarItem>
     </ContentPage.MenuBarItems>
 
+    <Grid>
+        <Button Text="Alert"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="AlertButton_Clicked"/>
+    </Grid>
 </ContentPage>
